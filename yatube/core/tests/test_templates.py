@@ -1,7 +1,5 @@
 from django.test import Client, TestCase
 
-from posts.models import User
-
 
 class PostURLTests(TestCase):
     @classmethod
