@@ -1,13 +1,11 @@
-from django.contrib.auth import get_user_model
 from django.test import Client, TestCase
 from django.urls import reverse
 from faker import Faker
 from posts.forms import CommentForm
 
-from ..models import Comment, Group, Post
+from ..models import Comment, Group, Post, User
 
 fake = Faker()
-User = get_user_model()
 
 ONE_NEW_POST = 1
 

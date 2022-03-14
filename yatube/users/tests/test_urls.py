@@ -1,11 +1,9 @@
 from http import HTTPStatus
 
-from django.contrib.auth import get_user_model
 from django.test import Client, TestCase
+from posts.models import User
 
 OK = HTTPStatus.OK
-
-User = get_user_model()
 
 
 class TaskURLTests(TestCase):

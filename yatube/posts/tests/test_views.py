@@ -1,15 +1,13 @@
 from django import forms
-from django.contrib.auth import get_user_model
 from django.core.cache import cache
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.test import Client, TestCase
 from django.urls import reverse
 from faker import Faker
 
-from ..models import Group, Post
+from ..models import Group, Post, User
 
 fake = Faker()
-User = get_user_model()
 
 
 class PostPagesTest(TestCase):

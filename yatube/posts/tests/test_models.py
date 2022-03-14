@@ -1,11 +1,9 @@
-from django.contrib.auth import get_user_model
 from django.test import TestCase
 from faker import Faker
 
-from ..models import Group, Post
+from ..models import Group, Post, User
 
 fake = Faker()
-User = get_user_model()
 
 
 class PostModelTest(TestCase):

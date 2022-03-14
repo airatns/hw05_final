@@ -3,16 +3,14 @@ import tempfile
 
 from django.conf import settings
 from django.core.files.uploadedfile import SimpleUploadedFile
-from django.contrib.auth import get_user_model
 from django.test import Client, TestCase, override_settings
 from django.urls import reverse
 from faker import Faker
 from posts.forms import PostForm
 
-from ..models import Group, Post
+from ..models import Group, Post, User
 
 fake = Faker()
-User = get_user_model()
 
 ONE_NEW_POST = 1
 TEMP_MEDIA_ROOT = tempfile.mkdtemp(dir=settings.BASE_DIR)

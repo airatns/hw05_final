@@ -1,14 +1,12 @@
 from http import HTTPStatus
 
-from django.contrib.auth import get_user_model
 from django.core.cache import cache
 from django.test import Client, TestCase
 from faker import Faker
 
-from ..models import Follow, Post
+from ..models import Follow, Post, User
 
 fake = Faker()
-User = get_user_model()
 
 OK = HTTPStatus.OK
 FOUND = HTTPStatus.FOUND

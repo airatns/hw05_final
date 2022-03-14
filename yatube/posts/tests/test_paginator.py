@@ -1,13 +1,11 @@
-from django.contrib.auth import get_user_model
 from django.core.cache import cache
 from django.test import Client, TestCase
 from django.urls import reverse
 from faker import Faker
 
-from ..models import Group, Post
+from ..models import Group, Post, User
 
 fake = Faker()
-User = get_user_model()
 POSTS_QUANTITY = 13
 POSTS_PER_PAGE = 10
 LAST_PAGE_POSTS = 3

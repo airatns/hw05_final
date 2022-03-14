@@ -1,12 +1,10 @@
-from django.contrib.auth import get_user_model
 from django.test import Client, TestCase
 from django.urls import reverse
 from faker import Faker
 
-from ..models import Post
+from ..models import Post, User
 
 fake = Faker()
-User = get_user_model()
 
 
 class PostURLTests(TestCase):

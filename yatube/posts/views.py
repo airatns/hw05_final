@@ -91,7 +91,7 @@ def post_create(request):
 def post_edit(request, post_id):
     template = 'posts/create_post.html'
     is_edit = True
-    post = Post.objects.get(pk=post_id)
+    post = get_object_or_404(Post, pk=post_id)
     form = PostForm(
         request.POST or None,
         files=request.FILES or None,
@@ -113,7 +113,7 @@ def post_edit(request, post_id):
 
 @login_required
 def add_comment(request, post_id):
-    post = Post.objects.get(pk=post_id)
+    post = get_object_or_404(Post, pk=post_id)
     form = CommentForm(request.POST or None)
     if form.is_valid():
         comment = form.save(commit=False)
