@@ -12,7 +12,7 @@ Python, Django, SQL, Gunicorn, Nginx, PostgreSQL, Яндекс.Облако(Ubun
 
 Клонировать репозиторий и перейти в него в командной строке:
 
->*git clone git@github.com:airatns/hw05_final.git*
+>*git clone git@github.com:airatns/hw05_final_yatube.git*
 
 Cоздать и активировать виртуальное окружение:
 
