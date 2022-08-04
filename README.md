@@ -14,7 +14,7 @@ Python, Django, SQL, Gunicorn, Nginx, PostgreSQL, Яндекс.Облако(Ubun
 
 >*git clone git@github.com:airatns/hw05_final_yatube.git*
 
-Зайти в папку с проектом. Cоздать и активировать виртуальное окружение:
+Cоздать и активировать виртуальное окружение:
 
 >*python -m venv env*
 
