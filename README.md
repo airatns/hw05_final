@@ -26,7 +26,7 @@ Set up the virtual environment:
 >*python -m venv env* \
 >*source env/scripts/activate*
 
-Install Python dependencies in an app using requirements.txt:
+Install dependencies in an app using requirements.txt:
 
 >*python -m pip install --upgrade pip* \
 >*pip install -r requirements.txt*
