@@ -13,7 +13,7 @@
 
 **Live Post** is the social network for publishing posts, which allows users to subscribe to individual authors, add posts to the favorites, upload images. If the user forgets his password, he can request the email with the recovery code and change the password. Also realized custom authorization and caching. The backend was written in Python using Django. The frontend was written in HTML. Models, urls, views and forms were covered by tests using Unittest. Also developed [REST API](https://github.com/airatns/api_final_yatube1) for Live Post
 
-![Yatube](https://user-images.githubusercontent.com/96816183/182358955-0a50ba2b-dc3e-434b-812f-ba7c9f5b4978.png)
+![Live Post](https://user-images.githubusercontent.com/96816183/222642702-d8d95ae0-38d9-4a1f-9dfb-b7b52fdc7db8.png)
 
 ## **Getting Started:**
 
